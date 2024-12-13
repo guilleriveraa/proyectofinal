@@ -17,6 +17,7 @@
       <li><a href="contenido.html">Historia</a></li>
       <li><a href="detalle.html">Jugadores Icónicos</a></li>
       <li><a href="contacto.html" class="active">Contacto</a></li>
+      <li><a href="defensa.html">defensa</a></li>
     </ul>
   </nav>
 </header>
@@ -37,6 +38,11 @@
 
       <label for="message">Mensaje:</label>
       <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+
+      <form action="recibir.php" method="get">
+        <p>Teléfono: <input type="tel" name="telefono" /></p>
+        <p><input type="submit" value="Enviar" /></p>
+    </form>
 
       <button type="submit" class="btn">Enviar</button>
     </form>
