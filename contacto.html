@@ -36,17 +36,19 @@
       <label for="subject">Asunto:</label>
       <input type="text" id="subject" name="subject" placeholder="Asunto del mensaje" required>
 
+      <label for="phone">Teléfono:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Tu teléfono">
+
       <label for="message">Mensaje:</label>
       <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje" required></textarea>
 
-      <form action="recibir.php" method="get">
-        <p>Teléfono: <input type="tel" name="telefono" /></p>
-        <p><input type="submit" value="Enviar" /></p>
-    </form>
+      <label for="preference">¿Cómo prefieres ser contactado?</label>
+      <select id="preference" name="preference">
+        <option value="email">Correo Electrónico</option>
+        <option value="phone">Teléfono</option>
+        <option value="whatsapp">WhatsApp</option>
+      </select>
 
-      <button type="submit" class="btn">Enviar</button>
-    </form>
-  </section>
 </main>
 
 <footer>

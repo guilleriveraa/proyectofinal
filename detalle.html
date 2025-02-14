@@ -26,7 +26,31 @@
   <section class="jugadores">
     <h1>Las 20 Máximas Leyendas del FC Barcelona</h1>
     <ul>
-      <li><strong>Lionel Messi:</strong> Máximo goleador histórico del club, ganador de 10 Ligas y 4 Champions League.</li>
+      <li class="favorite"><strong>Lionel Messi:</strong> Máximo goleador histórico del club, ganador de 10 Ligas y 4 Champions League. ★</li>
+      <style>
+        .item {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+        .item:focus {
+            background-color: yellow;
+            outline: none;
+        }
+        .favorite {
+            background-color: gold;
+            font-weight: bold;
+        }
+      </style>
+      
+      <a href="favorito.html">
+        <img src="./messi.jpg" width="100" alt="Lionel Messi">
+    </a>
+    
+      </ul>
       <li><strong>Johan Cruyff:</strong> Introdujo el estilo de juego único del Barça, tanto como jugador como entrenador.</li>
       <li><strong>Xavi Hernández:</strong> Arquitecto del mediocampo y pieza clave en la era dorada del club.</li>
       <li><strong>Andrés Iniesta:</strong> Elegancia y visión en el campo, autor de momentos decisivos en la historia del club.</li>
